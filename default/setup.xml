@@ -1,0 +1,12 @@
+<setup>
+   <block title="SA-Faroo Setup">
+  </block>
+
+  <block title="Enter your Faroo API Key" endpoint="faroo/conf" entity="setupentity">
+    <text>if you need a key please visit: http://www.faroo.com/hp/api/api.html#key</text>
+    <input field="api_key">
+      <label>API Key</label>
+      <type>text</type>
+    </input>
+  </block>
+</setup>
